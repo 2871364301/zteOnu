@@ -35,8 +35,8 @@ var (
 )
 
 func init() {
-	rootCmd.PersistentFlags().StringVarP(&user, "user", "u", "telecomadmin", "factory mode auth username")
-	rootCmd.PersistentFlags().StringVarP(&passwd, "pass", "p", "nE7jA%5m", "factory mode auth password")
+	rootCmd.PersistentFlags().StringVarP(&user, "user", "u", "useradmin", "factory mode auth username")
+	rootCmd.PersistentFlags().StringVarP(&passwd, "pass", "p", "d74pz", "factory mode auth password")
 	rootCmd.PersistentFlags().StringVarP(&ip, "ip", "i", "192.168.1.1", "ONU ip address")
 	rootCmd.PersistentFlags().IntVar(&port, "port", 8080, "ONU http port")
 	rootCmd.PersistentFlags().BoolVar(&permTelnet, "telnet", false, "permanent telnet (user: root, pass: Zte521)")
